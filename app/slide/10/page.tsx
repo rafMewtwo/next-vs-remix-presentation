@@ -12,7 +12,8 @@ export default function Slide() {
       <div className="w-full h-full grid grid-cols-2 justify-items-center overflow-auto mt-8 gap-y-8 w-[90%] mx-auto">
 
           <div className='flex-col gap-[24px]'>
-            <span  className="text-dark text-3xl font-muli font-bold">
+            <span  className="text-dark text-3xl font-muli font-bold flex gap-2">
+            <div className="bg-geekie w-4 h-4 rounded-full mt-1.5" />
               SSR
             </span>
             <Image
@@ -21,7 +22,8 @@ export default function Slide() {
             />
           </div>
           <div className='flex-col gap-[24px]'>
-            <span  className="text-dark text-3xl font-muli font-bold">
+            <span  className="text-dark text-3xl font-muli font-bold flex gap-2">
+            <div className="bg-geekie w-4 h-4 rounded-full mt-1.5" />
               SSG
             </span>
             <Image
@@ -32,7 +34,8 @@ export default function Slide() {
 
 
           <div className='flex-col gap-[24px]'>
-            <span  className="text-dark text-3xl font-muli font-bold">
+            <span  className="text-dark text-3xl font-muli font-bold flex gap-2">
+            <div className="bg-geekie w-4 h-4 rounded-full mt-1.5" />
               ISR
             </span>
             <Image
@@ -41,7 +44,8 @@ export default function Slide() {
             />
           </div>
           <div className='flex-col gap-[24px]'>
-            <span  className="text-dark text-3xl font-muli font-bold">
+            <span  className="text-dark text-3xl font-muli font-bold flex gap-2">
+            <div className="bg-geekie w-4 h-4 rounded-full mt-1.5" />
               CSR
             </span>
             <Image

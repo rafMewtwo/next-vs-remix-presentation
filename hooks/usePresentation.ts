@@ -1,7 +1,7 @@
 'use client'
 import { usePathname, useRouter } from 'next/navigation';
 
-const SLIDE_COUNT = 20;
+const SLIDE_COUNT = 24;
 
 export function usePresentation() {
   const router = useRouter();
